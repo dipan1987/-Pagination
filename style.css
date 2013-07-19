@@ -1,0 +1,435 @@
+
+*
+    {
+      margin:0;
+	    padding:0;
+    }
+
+
+    .div a
+    {
+	    text-decoration:none;
+		text-align:center;
+        color:#FF0099;
+        border:0px;
+        padding:5px 25px; 
+        background:#FFF;
+        width:300px;
+		vertical-align:central;
+		font-weight:bold;
+        border-radius:25px;
+        -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+    }
+    .div a:hover
+	{ 
+		background-color:#f09;
+		color:#FFF;
+	}
+    .tab
+    {
+		background-color:#FFF;
+        border-radius:25px;
+        -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+    }
+    .separator
+	{
+		color:#F09;
+	}	
+	.table
+    {
+		background-color:#FFF;
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+        border:2px solid #F09;
+        padding:10px 30px; 
+        width:550px;
+		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+        border-radius:25px;
+        -moz-border-radius:25px; /*Firefox 3.6 and earlier */
+    }
+	
+	.tablelog
+    {
+		background-color:#FFF;
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+        border:2px solid #F09;
+        padding:10px 30px; 
+        width:350px;
+		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+        border-radius:25px;
+        -moz-border-radius:25px; /*Firefox 3.6 and earlier */
+    }
+	
+	.st_reg_table
+    {
+		-moz-box-shadow:1px 1px 5px 5px #C9C9C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #C9C9C9;
+        border:2px solid #003399;
+        padding:10px 30px; 
+        background:#039;
+        border-radius:25px;
+        -moz-border-radius:25px; /*        Firefox 3.6 and earlier */
+    }
+	.reg
+    {
+		background-color:#039;
+        -moz-box-shadow:1px 1px 5px 5px #C9C9C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #C9C9C9;
+        border:2px solid #003399;
+        padding:10px 30px; 
+        background:#039;
+        border-radius:25px;
+        -moz-border-radius:25px; /*        Firefox 3.6 and earlier */
+    }
+    .font
+    {
+	    color:#F09;
+	    font-family:Georgia, Times New Roman, Times, serif;
+	    font-size:15px;
+	    text-align:right;
+    }
+	.noticebodyfont
+	{
+		background-color:#FFF;
+		color:#039;
+		font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		text-align:center;
+		width:1500px;
+		height:160px;
+		border-radius:25px;
+		
+	}
+	.img
+    {
+        margin: 2px;
+        border: 1px solid #0000ff;
+        height: auto;
+        width: auto;
+        float: left;
+        text-align: center; 
+    }
+	.img img
+    {  
+	    display: inline;
+        margin: 3px;
+        border: 1px solid #ffffff;
+    }
+    .img a:hover img 
+	{
+	    border: 1px solid #0000ff;
+	}
+    .desc
+    {
+        text-align: center;
+        font-weight: normal;
+        width: 120px;
+		margin: 2px;
+	}
+	.noticeboard
+    {
+        -moz-box-shadow:1px 1px 5px 5px #F09; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #F09;
+        /*border:2px solid #F09 ;
+		width:80%;*/
+		
+        padding:5px 5px;
+        border-radius:25px;
+        -moz-border-radius:25px; /*        Firefox 3.6 and earlier */
+    }
+	.background
+    {
+        width:100%;
+        background:url(flower.jpg);
+        border:0px;
+    }
+	.transbox
+  	{
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+	    text-align:center;
+        width:150px;
+  		height:160px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+  		opacity:0.6;
+  		filter:alpha(opacity=60); /* For IE8 and earlier */
+  		background-color:#FFF;
+		/*color:#039;*/
+		font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+        color:#1A1A1A;
+		border-radius:25px;
+  	}
+  	
+	
+    .gender
+	{
+	    color:#F09;
+	    font-family:Georgia, Times New Roman, Times, serif;
+	    font-size:15px;
+	}
+	.contact
+	{
+		font-size:20px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		color:#F09;
+	}
+	.product_noticeboard
+    {
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+        border:2px solid #F09 ;
+		/*width:80%;*/
+		
+        padding:5px 5px;
+        border-radius:25px;
+        -moz-border-radius:25px; /*        Firefox 3.6 and earlier */
+    }
+	.product_transbox
+  	{
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+	    text-align:center;
+        width:150px;
+  		height:160px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+  		opacity:0.8;
+  		filter:alpha(opacity=80); /* For IE8 and earlier */
+  		background-color:#FFF;
+		/*color:#039;*/
+		font-size:15px;
+		font-family: "Comic Sans MS", cursive/*Georgia, "Times New Roman", Times, serif*/;
+		font-weight:bold;
+        color:#F09;
+		border-radius:25px;
+  	}	
+	
+	.p
+    {
+	    text-decoration:none;
+		text-align:center;
+        color:#F09;
+        border:0px;
+        padding:5px 25px; 
+        background:#FFF;
+        width:300px;
+		vertical-align:central;
+        border-radius:25px;
+        -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+    }
+    .p:hover
+	{ 
+		background-color:#f09;
+		color:#FFF;
+	}
+	
+	.transbox_heading 
+	{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:15px;
+		vertical-align:central;
+		font-weight:bold;
+		color:#F09;
+		text-decoration:none;
+		-moz-box-shadow:1px 1px 4px 4px #FFF; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 4px 4px #FFF;
+	    text-align:center;
+        width:175px;
+  		height:20px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+  		background-color:#FFF;
+		border-radius:25px;
+	}
+
+	.transbox_heading_area
+	{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:15px;
+		vertical-align:central;
+		font-weight:bold;
+		color:#F09;
+		text-decoration:none;
+		-moz-box-shadow:1px 1px 4px 4px #FFF; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 4px 4px #FFF;
+	    text-align:center;
+        width:300px;
+  		height:20px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+  		background-color:#FFF;
+		border-radius:25px;
+	}
+	
+	.transbox_heading_employee 
+	{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:15px;
+		vertical-align:central;
+		font-weight:bold;
+		color:#F09;
+		text-decoration:none;
+		-moz-box-shadow:1px 1px 4px 4px #FFF; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 4px 4px #FFF;
+	    text-align:center;
+        width:235px;
+  		height:20px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+  		background-color:#FFF;
+		border-radius:25px;
+	}
+	
+	
+	.heading
+  	{
+		
+        background-color:#FFF;
+	    /*box-shadow:1px 1px 5px 5px #C9C9C9;
+        -moz-box-shadow:1px 1px 5px 5px #C9C9C9; /* Firefox 3.6 and earlier */
+        text-decoration:none;
+		text-align:center;
+        color:#F09;
+        border:0px;
+        padding:5px 25px; 
+        background:#FFF;
+		font-weight:bold;
+		opacity:0.8;
+  		filter:alpha(opacity=80); /* For IE8 and earlier */
+        /*width:300px;*/
+		vertical-align:central;
+        border-radius:25px;
+        -moz-border-radius:25px; /* Firefox 3.6 and earlier */          
+  	}
+	
+	.heading a
+	{
+		text-decoration:none;
+		text-align:center;
+        opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+		background-color:#FFF;
+		color:#F09;
+		font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+       
+  	}
+	.transbox_heading a
+	{
+		text-decoration:none;
+		text-align:center;
+        opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+		background-color:#FFF;
+		color:#F09;
+		font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+       
+  	}
+	
+	 .transbox_heading:hover
+	{ 
+		text-decoration:none;
+		text-align:center;
+        opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+		background-color:#FFF;
+		color:#F09;
+		font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+        color:#F09;
+	}
+	
+	.wedding_transbox
+  	{
+        -moz-box-shadow:1px 1px 5px 5px #FF93C9; /* Firefox 3.6 and earlier */
+        box-shadow:1px 1px 5px 5px #FF93C9;
+	    text-align:center;
+        width:150px;
+  		height:300px;
+  		margin:10px 10px;
+   		border:2px solid #F09 ;
+  		opacity:0.9;
+  		filter:alpha(opacity=90); /* For IE8 and earlier */
+  		background-color:#FFF;
+		/*color:#039;*/
+		font-size:15px;
+		font-family: "Comic Sans MS", cursive/*Georgia, "Times New Roman", Times, serif*/;
+		font-weight:bold;
+        color:#F09;
+		border-radius:25px;
+  	}
+	
+	#maindiv
+	{
+		padding-left:11%;
+	}
+	
+	#po
+	{
+		float:left;
+	}
+	
+	#pr
+	{
+		float:left;
+	}
+	
+    #we
+	{
+		float:left;
+	}
+	
+	#ot
+	{
+		float:left;
+	}
+	
+    .font2
+    {
+	    color:#F09;
+	    font-family:Georgia, Times New Roman, Times, serif;
+	    font-size:15px;
+	    text-align:left;
+		padding-left:20px;
+    }
+	
+    .font3
+    {
+	    color:#FF9F00;
+	    font-family:Georgia, Times New Roman, Times, serif;
+	    font-size:15px;
+	    text-align:left;
+		padding-left:20px;
+    }
+
+    .font4
+    {
+	    color:#F09;
+	    font-family:Georgia, Times New Roman, Times, serif;
+	    font-size:15px;
+	    text-align:right;
+		padding-left:10px;
+		padding-right:10px;
+    }
+
+div.t
+{
+	display:none;
+}
+	
